@@ -4,7 +4,7 @@
   "description": "Compressed tree output for AI-optimized codebase summaries",
   "type": "module",
   "bin": {
-    "treezip": "./dist/cli.js"
+    "treezip": "dist/cli.js"
   },
   "exports": {
     ".": {
@@ -22,12 +22,11 @@
     "prepublishOnly": "npm run build"
   },
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yigitkonur/treezip.git"
+    "url": "git+https://github.com/yigitkonur/treezip.git"
   },
   "homepage": "https://github.com/yigitkonur/treezip",
   "bugs": {
